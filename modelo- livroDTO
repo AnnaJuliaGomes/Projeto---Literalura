@@ -1,0 +1,17 @@
+package com.literalura.model;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.util.List;
+
+@sonIgnorePropertiesJ(ignoreUnknown = true)
+
+public class LivroDTO {
+    private String title;
+    private List<String> languages;
+    private int download_count;
+    private List<AutorDTO> authors;
+
+    public LivroDTO() {}
+
+    // Getters e Setters
+}
