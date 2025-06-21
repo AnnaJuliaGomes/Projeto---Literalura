@@ -1,0 +1,15 @@
+package com.literalura.model;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+
+public class AutorDTO {
+    private String name;
+    private Integer birth_year;
+    private Integer death_year;
+
+    public AutorDTO() {}
+
+    // Getters e Setters
+}
